@@ -1,0 +1,100 @@
+*{margin: 0;
+padding: 0;}
+
+
+
+
+
+body {background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/130727.jpg);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;}
+
+
+.logo{width: 100px
+    ;
+margin-top: 15px;}
+
+.header{ height: 10%;
+      
+}
+
+
+.header-btn{
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+background-color: rgb(29, 98, 201);
+padding: 3px ;
+float:right ;
+
+margin-left: 30px;
+margin-top: 10px;
+}
+.right-img{
+    border-color: black;
+    border-left: black, 2px;
+}
+
+
+p{ color: white;
+text-align:left ;}
+
+h1{color: yellow;}
+
+.casting img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.watch-btn{
+    border-width: 80px;
+    font-size: 29px;;
+    background-color: rgba(107, 155, 107, 0.897);
+    border-radius: 30px;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+     
+}
+
+.download-btn{
+    font-size: 29px;
+    background-color:transparent;
+    border-width: 200px ;
+    border-color: white;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+
+.poster{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    
+    cursor: pointer;
+    transition: 1s;
+
+    
+    
+
+}
+
+.poster:hover{
+    transform: translateY(-16px);
+}
+
+footer{
+     position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(247, 247, 216);
+    text-align: center;
+}
+    
